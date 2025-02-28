@@ -1,0 +1,10 @@
+#!/bin/bash
+a=1
+b=2
+c=3
+read a
+read b
+read c
+temp=0
+let temp=$a+$b
+echo "el resultado de a+b es:"$temp
